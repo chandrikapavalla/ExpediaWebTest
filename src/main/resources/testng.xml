@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" thread-count="3" parallel="false">
+
+	<listeners>
+		<listener class-name="com.crm.qa.reports.ExtentReporterNG"></listener>		
+	</listeners>
+
+	<test name="ChromeTesting">
+		<parameter name="browser" value="chrome" />
+		<classes>          
+			<class name="com.crm.qa.testcases.StaysSearch">  </class>
+			<class name="com.crm.qa.testcases.FlightsSearch">  </class>
+			<class name="com.crm.qa.testcases.CarsSearch">  </class>		
+		</classes>
+	</test>
+	 
+	<test name="FirefoxTest">
+ 		<parameter name="browser" value="FF" />
+ 		<classes>
+ 			<class name="com.crm.qa.testcases.StaysSearch">  </class>
+		    <class name="com.crm.qa.testcases.FlightsSearch">  </class>
+			<class name="com.crm.qa.testcases.CarsSearch">  </class>
+ 		</classes>
+ 	</test>
+ 
+	
+</suite> 

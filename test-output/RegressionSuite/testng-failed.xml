@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [RegressionSuite]" parallel="tests">
+  <parameter name="browser" value="FF"/>
+  <listeners>
+    <listener class-name="com.crm.qa.reports.ExtentReporterNG"/>
+  </listeners>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="com.crm.qa.testcases.FlightsSearch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.FlightsSearch -->
+      <class name="com.crm.qa.testcases.StaysSearch">
+        <methods>
+          <include name="TC_01"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.StaysSearch -->
+      <class name="com.crm.qa.testcases.CarsSearch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CarsSearch -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

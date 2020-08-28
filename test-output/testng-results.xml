@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="43005" started-at="2020-08-28T18:41:23Z" finished-at="2020-08-28T18:42:06Z">
+    <groups>
+    </groups>
+    <test name="ChromeTesting" duration-ms="43005" started-at="2020-08-28T18:41:23Z" finished-at="2020-08-28T18:42:06Z">
+      <class name="com.crm.qa.testcases.StaysSearch">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.crm.qa.testcases.StaysSearch@61832929]" name="beforeTest" is-config="true" duration-ms="12755" started-at="2020-08-28T19:41:23Z" finished-at="2020-08-28T19:41:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:com.crm.qa.testcases.StaysSearch@61832929]" name="TC_01" duration-ms="18955" started-at="2020-08-28T19:41:35Z" description="Verify weather user able to search hotels in stays tab" finished-at="2020-08-28T19:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.StaysSearch@61832929]" name="tearDown" is-config="true" duration-ms="11287" started-at="2020-08-28T19:41:54Z" finished-at="2020-08-28T19:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.StaysSearch -->
+    </test> <!-- ChromeTesting -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
